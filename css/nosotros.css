@@ -1,0 +1,59 @@
+.equipo {
+    text-align: center;
+    margin-bottom: 20px;
+}
+.equipo .container__flex {
+    align-items: flex-start;
+}
+.equipo__titulo {
+    font-family: 'Pacifico',cursive;
+    color: chocolate;
+    font-weight: bold;
+    font-size: 1.8em;
+    margin-bottom: 10px;
+}
+.equipo__img {
+    width: 200px;
+    height: 200px;
+    object-fit: cover;
+    border-radius: 50%;
+    margin: auto;
+    margin-bottom: 20px;
+}
+.equipo__txt {
+    padding: 10px;
+    text-align: justify;
+}
+
+/*--------------------Estilos--responsive------------*/
+
+@media screen and (min-width:480px) {
+    .equipo__img {
+        width: 150px;
+        height: 150px;
+    }
+}
+
+@media screen and (min-width:768px) {
+    .equipo__img {
+        width: 220px;
+        height: 220px;
+    }    
+}
+@media screen and (min-width:1024px) {
+    .equipo__img {
+        width: 300px;
+        height: 300px;
+    }
+    .equipo__titulo {
+        font-size: 2.5em;
+    }
+}
+
+@media screen and (min-width:1600px) {
+    .equipo__img {
+        width: 450px;
+        height: 450px;
+    }
+}
+
